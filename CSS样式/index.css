@@ -1,0 +1,367 @@
+*{margin: 0;padding: 0;}
+body{margin: 0 auto;width: 100%;}
+/*头部*/
+.header{
+	width: 100%;
+	height: 80px;
+	overflow: hidden;
+	zoom:1;
+	background: #07cbc9;
+	position: fixed;
+	z-index: 3;
+}
+.header .logo{
+	float: left;
+}
+.header .logo img{
+	display: block;
+	padding-top: 16px;
+	margin-left: 80px;
+}
+.header .nav{
+	float: right;
+}
+.header .nav ul{
+	overflow: hidden;
+	zoom:1;
+	margin-right: 80px;
+}
+.header .nav ul li{
+	list-style: none;
+	float: left;
+	height: 80px;
+	padding: 0 20px;
+	line-height: 80px;
+}
+.header .nav ul li a{
+	text-decoration: none;
+}
+.header .nav ul li a:link{
+	color:#fff;
+}
+.header .nav ul li:hover{
+	background: #000;
+}
+/*banner图*/
+.banner{
+	width: 100%;
+	height: 600px;
+	padding-top: 80px;
+}
+.banner img{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 80px;
+}
+.banner .layer{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+
+}
+
+.banner .biaodan form{
+	width: 505px;
+	height: 378px;
+	position: absolute;
+	left: 50%;
+	padding-top: 300px;
+	margin-left: -252.5px;
+	margin-top: -189px;
+	z-index: 2;
+	
+}
+.banner .biaodan form input{display: block;}
+.banner .biaodan form .one{
+	border:2px solid gray;
+	height: 39px;
+	width: 505px;
+	background: none;
+}
+.banner .biaodan form .two{
+	border:2px solid gray;
+	width: 505px;
+	height: 115px;
+	background: none;
+	font-family: "微软雅黑";
+}
+.banner .biaodan form .three{
+	border:2px solid gray;
+	height: 43px;
+	margin-left: 187.5px;
+	background: none;
+	color: gray;
+	padding: 10px;
+	font-size: 16px;
+}
+.banner .biaodan form .one,.two{text-indent: 15px;}
+.banner .biaodan form .one:hover{
+	border-color: #07cbc9;
+}
+.banner .biaodan form .two:hover{
+	border-color: #07cbc9;
+}
+.banner .biaodan form .three:hover{
+	border-style: none;
+	background: #07cbc9;
+}
+/*ABOUT区*/
+.about{
+	width: 100%;
+}
+.top{
+	width: 1200px;
+	margin: 0 auto;
+}
+.title{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.xian{
+	border-top: 2px solid #07cbc9;
+	width: 30px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.content{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.about .middle{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.about .middle .lcon{
+	height: 380px;
+	width: 370px;
+	float: left;
+	margin-left: -70px;
+}
+.about .middle .lcon p{
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	padding-bottom: 10px;
+	margin-left: 220px;
+	padding-top: 10px;
+}
+.about .middle .lcon .lconl{
+	width: 370px;
+	height: 246px;
+	border: 1px solid gray;
+	position: absolute;
+	left: 80px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.about .middle .lcon .lconl .layer1{
+	width: 392px;
+	height: 268px;
+	background: rgba(255,255,255,0.5);
+	opacity: 0.5;
+	margin-top: -140px;
+	margin-left: -20px;
+}
+.about .middle .lcon .lconl input{
+	display: block;
+	color: #fff;
+	width: 120px;
+	height: 50px;
+	background: #000;
+	border-style: none;
+	margin-top: -100px;
+	position: absolute;
+	z-index: 2;
+}
+.about .middle .lcon .lconl input:hover{
+	background-color: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+.about .middle .pic img{
+	display: block;
+	width: 568px;
+	height: 380px;
+	float: left;
+}
+.about .middle .rcon{
+	height: 380px;
+	float: left;
+	margin-left: 30px;
+	
+}
+.about .middle .rcon .rcon1{
+	margin-bottom: 20px;
+	position: relative;
+}
+.about .middle .rcon .rcon2{
+	position: relative;
+}
+.about .middle .rcon .rcon1,.rcon2{
+	width: 238px;
+	height: 144px;
+	border: 1px solid #07cbc9;
+	border-top: none;
+	border-left: none;
+}
+.xian1{
+	border-top: 2px solid #07cbc9;
+	width: 40px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.about .middle .rcon .word{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+.about .middle .rcon .eword{
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.about .middle .rcon .rcon11,.rcon22{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-left: -42px; 
+}
+.about .middle .rcon .rcon11{
+	margin-top: -34px;
+}
+.about .middle .rcon .rcon22{
+	margin-top: -27px;
+}
+.about .bottom{
+	width: 100%;
+	overflow: hidden;
+	zoom:1;
+}
+.about .bottom img{
+	height: 400px;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.about .bottom .comm{
+	height: 400px;
+	width: 25%;
+	background: #07cbc9;
+	position: relative;
+	float: left;
+}
+.about .bottom .comm h1{
+	color: #fff;
+	padding: 20px 0;
+}
+.about .bottom .comm .comm1{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 15px;
+	line-height: 30px;
+}
+.about .bottom .comm .comm2{
+	color: gray;
+}
+.about .bottom .comm input{
+	color: #fff;
+	width: 120px;
+	height: 50px;
+	margin-left: 148px;
+	background: #000;
+	border-style: none;
+	margin-top: 35px;	
+	display: block;
+}
+.about .bottom .comm input:hover{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+.about .bottom .comm .container{
+	position: absolute;
+	top: 15px;
+	left: 40px;
+}
+.about .bottom .sj{position: relative;width: 25%;float: left;}
+.about .bottom .sj:nth-child(odd):before{
+	content: "";
+	position: absolute;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-right: 25px solid #07cbc9;
+	border-bottom: 15px solid transparent;
+	top: 200px;
+	z-index: 66;
+}
+.about .bottom .sj:nth-child(even):before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 25px solid #07cbc9;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	top: 200px;
+	z-index: 66;
+}
+/*GALLERY区*/
+.gallery{
+	width: 100%;
+}
+.gallery .main{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+	zoom:1;
+	margin-bottom: 50px;
+}
+.gallery .main dl{
+	float: left;
+	margin: 10px;
+}
+.gallery .main dl dt{
+	width: 360px;
+	height: 240px;
+}
+.gallery .main dl .pic-c{
+	width: 360px;
+	height: 64px;
+	background:#000;	
+	position: relative;
+}
+.gallery .main dl .pic-c .pic-content{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	color: #fff;
+	font-size: 17px;
+}
+/*页脚区*/
+.footer{
+	width: 100%;
+	height: 80px;
+	background:#07cbc9;
+}
+.footer .footer-con{
+	text-align: center;
+	line-height: 80px;
+	color: #fff;
+}
